@@ -37,7 +37,7 @@ export default function Home() {
     <main className='flex h-screen w-screen justify-center bg-white'>
       <div className='flex h-full w-full max-w-[430px] flex-col items-center ring-1 ring-gray-200'>
         <Image src={"/images/check.svg"} alt={"check"} width={430} height={50} />
-        <Image src={"/images/title.svg"} alt={"check"} width={430} height={50} />
+        <Image src={"/images/title.png"} alt={"check"} width={430} height={50} />
         <Image src={"/images/sub_title.svg"} alt={"check"} width={340} height={50} className='mb-10' />
         <section className='grid grid-cols-4 gap-3'>
           {QUESTIONS.map((question, idx) => {
