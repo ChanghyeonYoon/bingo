@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Cloud Club BINGO",
     description: "사람을 찾아라! 빙고게임",
-    images: "/images/title.png",
+    images: "https://changhyeon.s3.ap-northeast-2.amazonaws.com/assets/title.png",
   },
 };
 
